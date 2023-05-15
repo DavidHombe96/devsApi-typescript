@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+         "module": "NodeNext",
+         "moduleResolution": "node",
+         "baseUrl": "src",
+         "outDir": "dist",
+         "sourceMap": true,
+         "noImplicitAny": true,                          /* Skip type checking all .d.ts files. */
+  },
+  "include": ["src/**/*"],
+}
