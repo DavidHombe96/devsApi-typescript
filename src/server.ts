@@ -14,6 +14,8 @@ app.use(cors({
     credentials:   true,
 }))
 
+// ================== Static Files =============
+// app.use("/uploads", express.static(path.resolve(__dirname, "..", "uploads")));
 
 app.use(compression());
 app.use(cookieParser());
