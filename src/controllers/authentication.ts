@@ -31,7 +31,7 @@ export const login = async (req:Request, res:Response) => {
 
         res.cookie('DEVS-AUTH', user.authentication.sessionToken, { domain: 'localhost', path: '/'});
 
-        return res.sendStatus(200).json(user).end();
+        return res.status(200).json(user);
 
     } catch (error) {
         console.log("Error: " + error);
